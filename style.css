@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
+}
+
+.section {
+    position: absolute;
+    height: 93vh;
+    width: auto;
+    overflow: hidden;
+    display: flex;
+}
+
+.Welcome {
+    text-align: center;
+    color: white;
+    padding: 160px 0 270px 0;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Works {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+#Projetos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 70px 0 0 0;
+    justify-content: center;
+    height: 150vh;
+    color:  white;
+    font-size: 22px;
+}
+
+.esquerda {
+    width: 30%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding: 20px 0 100px 0;
+    text-align: center;
+}
+
+.esquerda img{
+    width: 20vw;
+    height: 20vw;
+    padding: 20px 0 0 0;
+}
+
+.esquerda h2{
+    padding: 20px 0 0 0;
+}
+
+.meio {
+    width: 30%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding: 20px 0 100px 0;
+    text-align: center;
+}
+
+.meio img{
+    width: 20vw;
+    height: 20vw;
+    padding: 20px 0 0 0;
+}
+
+.meio h2{
+    padding: 20px 0 0 0;
+}
+
+.direita {
+    width: 30%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding: 20px 0 100px 0;
+    text-align: center;
+}
+
+.direita img{
+    width: 20vw;
+    height: 20vw;
+    padding: 20px 0 0 0;
+}
+
+.direita h2{
+    padding: 20px 0 0 0;
+}
+
+footer h1 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+span {
+    color: blueviolet;
+}
